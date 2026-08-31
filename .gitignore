@@ -1,0 +1,47 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Testing / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+#Additionals
+*.zip
+*.exe
+*.iso
+*.pt
+*.pth
+*.bin
+*.safetensors
+
+
+# Large datasets
+*.csv
+*.parquet
+*.jsonl
+*.pdf
+*.docx
+
+# Local vector databases / databases
+*.sqlite
+*.sqlite3
+*.db
