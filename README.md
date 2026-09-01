@@ -14,24 +14,35 @@ A robust, production-ready Retrieval-Augmented Generation (RAG) assistant built 
 
 ## 📑 Table of Contents
 
-- [Overview](#-overview)
-- [Architecture & Workflow](#-architecture--workflow)
-- [Key Features](#-key-features)
-- [Project Structure](#-project-structure)
-- [Prerequisites](#-prerequisites)
-- [Getting Started](#-getting-started)
-  - [1. Clone Repository](#1-clone-repository)
-  - [2. Environment Setup](#2-environment-setup)
-  - [3. Install Dependencies](#3-install-dependencies)
-  - [4. Configure Environment Variables](#4-configure-environment-variables)
-- [Running the Application](#-running-the-application)
-  - [Step 1: Ingest Documents into ChromaDB](#step-1-ingest-documents-into-chromadb)
-  - [Step 2: Launch Streamlit Chat Assistant](#step-2-launch-streamlit-chat-assistant)
-- [Core Technical Highlights](#-core-technical-highlights)
-- [Upcoming Roadmap](#-upcoming-roadmap)
-- [Contributing](#-contributing)
-- [License](#-license)
-- [Author](#-author)
+- [📚 Book \& Document RAG Assistant](#-book--document-rag-assistant)
+  - [📑 Table of Contents](#-table-of-contents)
+  - [🌟 Overview](#-overview)
+  - [🏗 Architecture \& Workflow](#-architecture--workflow)
+  - [🚀 Key Features](#-key-features)
+  - [📁 Project Structure](#-project-structure)
+  - [⚙️ Prerequisites](#️-prerequisites)
+  - [🛠 Getting Started](#-getting-started)
+    - [1. Clone Repository](#1-clone-repository)
+    - [2. Environment Setup](#2-environment-setup)
+      - [Option A: Using `uv` (Recommended)](#option-a-using-uv-recommended)
+      - [Option B: Using `pip` \& Python venv](#option-b-using-pip--python-venv)
+    - [3. Configure Environment Variables](#3-configure-environment-variables)
+  - [🖥 Running the Application](#-running-the-application)
+    - [Step 1: Ingest Documents into ChromaDB](#step-1-ingest-documents-into-chromadb)
+    - [Step 2: Launch Streamlit Chat Assistant](#step-2-launch-streamlit-chat-assistant)
+  - [🔍 Core Technical Highlights](#-core-technical-highlights)
+    - [1. Chunking Strategy](#1-chunking-strategy)
+    - [2. MMR (Maximum Marginal Relevance) Search](#2-mmr-maximum-marginal-relevance-search)
+  - [🗺 Upcoming Roadmap](#-upcoming-roadmap)
+    - [📅 Phase 1: Interactive Upload \& Dynamic Ingestion *(Near Term)*](#-phase-1-interactive-upload--dynamic-ingestion-near-term)
+    - [📅 Phase 2: Advanced Retrieval \& Re-ranking](#-phase-2-advanced-retrieval--re-ranking)
+    - [📅 Phase 3: Conversational Memory \& Agentic RAG](#-phase-3-conversational-memory--agentic-rag)
+    - [📅 Phase 4: Citation \& Verification Transparency](#-phase-4-citation--verification-transparency)
+    - [📅 Phase 5: Multi-LLM Provider Selector](#-phase-5-multi-llm-provider-selector)
+    - [📅 Phase 6: Production Hardening \& Deployment](#-phase-6-production-hardening--deployment)
+  - [🤝 Contributing](#-contributing)
+  - [📄 License](#-license)
+  - [👤 Author](#-author)
 
 ---
 
@@ -331,7 +342,7 @@ SOFTWARE.
 
 ## 👤 Author
 
-**Navamani**  
+**Navamanidhassan**  
 - **GitHub**: [@Navamanidhassan](https://github.com/Navamanidhassan)  
 - **Repository**: [RAG_langchain_bot](https://github.com/Navamanidhassan/RAG_langchain_bot)  
 
