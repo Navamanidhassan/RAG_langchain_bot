@@ -17,8 +17,11 @@ __pycache__/
 .coverage
 htmlcov/
 
-# IDE
+# IDE & Agent config
 .vscode/
+AGY.md
+agy.md
+*.agy.md
 
 # OS
 .DS_Store
@@ -32,7 +35,7 @@ Thumbs.db
 *.pth
 *.bin
 *.safetensors
-
+*.pkl
 
 # Large datasets
 *.csv
@@ -45,3 +48,5 @@ Thumbs.db
 *.sqlite
 *.sqlite3
 *.db
+faiss_index/
+chroma_db/
